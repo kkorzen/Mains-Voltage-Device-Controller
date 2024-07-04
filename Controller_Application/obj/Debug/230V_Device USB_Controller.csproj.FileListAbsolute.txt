@@ -1,0 +1,11 @@
+C:\Users\konra\Desktop\Sterownik urzadzen 230 V\230V_Device USB_Controller\bin\Debug\230V_Device USB_Controller.exe.config
+C:\Users\konra\Desktop\Sterownik urzadzen 230 V\230V_Device USB_Controller\bin\Debug\230V_Device USB_Controller.exe
+C:\Users\konra\Desktop\Sterownik urzadzen 230 V\230V_Device USB_Controller\bin\Debug\230V_Device USB_Controller.pdb
+C:\Users\konra\Desktop\Sterownik urzadzen 230 V\230V_Device USB_Controller\obj\Debug\230V_Device USB_Controller.csproj.AssemblyReference.cache
+C:\Users\konra\Desktop\Sterownik urzadzen 230 V\230V_Device USB_Controller\obj\Debug\230V_Device USB_Controller.csproj.SuggestedBindingRedirects.cache
+C:\Users\konra\Desktop\Sterownik urzadzen 230 V\230V_Device USB_Controller\obj\Debug\_230V_Device_USB_Controller.Form1.resources
+C:\Users\konra\Desktop\Sterownik urzadzen 230 V\230V_Device USB_Controller\obj\Debug\_230V_Device_USB_Controller.Properties.Resources.resources
+C:\Users\konra\Desktop\Sterownik urzadzen 230 V\230V_Device USB_Controller\obj\Debug\230V_Device USB_Controller.csproj.GenerateResource.cache
+C:\Users\konra\Desktop\Sterownik urzadzen 230 V\230V_Device USB_Controller\obj\Debug\230V_Device USB_Controller.csproj.CoreCompileInputs.cache
+C:\Users\konra\Desktop\Sterownik urzadzen 230 V\230V_Device USB_Controller\obj\Debug\230V_Device USB_Controller.exe
+C:\Users\konra\Desktop\Sterownik urzadzen 230 V\230V_Device USB_Controller\obj\Debug\230V_Device USB_Controller.pdb

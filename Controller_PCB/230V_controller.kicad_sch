@@ -4921,9 +4921,9 @@
 		)
 		(uuid "2e277fb8-8496-4301-9cab-a1aee6040518")
 	)
-	(text "Bistable Relay 1\nSingle Isolation"
+	(text "Bistable Relay 1\n"
 		(exclude_from_sim no)
-		(at 163.83 62.23 0)
+		(at 163.322 60.198 0)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -4943,9 +4943,9 @@
 		)
 		(uuid "6bcc5879-1b6a-4d89-9931-26f780455d99")
 	)
-	(text "Bistable Relay 2\nDouble Isolation"
+	(text "Bistable Relay 2"
 		(exclude_from_sim no)
-		(at 163.83 106.68 0)
+		(at 163.322 104.394 0)
 		(effects
 			(font
 				(size 1.524 1.524)

@@ -15,9 +15,7 @@ To make it a complete device with an "easy-to-use" logic, a simple desktop appli
 
 ## Electronics schematics + PCB Layout
 
-Electronics schematic was made with KiCad. At the moment, **there is no PCB layout** however it might be prepared one day.
-The whole schematic was divided into six sections to clarify different modules of the device.
-
+Electronics schematic was made with KiCad. The whole schematic was divided into six sections to clarify different modules of the device.
 
 ### Power section
 
@@ -71,6 +69,26 @@ A simple schematic for an Arduino with a drawn pinout. Nothing special, to be ho
 <p align="center">
   <img src="readme_img/arduino_circuit.png" width="500px"/>
 </p>
+
+### PCB Layout
+
+The PCB was designed the way it is presented on the picture below. Both sides of board were utilized, but most of the traces are located on the front. The were two main goals while designed such layout:
+1. Relatively compact size
+2. Visible separation of mains AC volatage from the control +5 volts. There is no physical gap between them, but the PCB was designed in such way that control voltage occupies one side of the PCB and the main voltage - the other side.
+
+<p align="center">
+  <img src="readme_img/pcb_no_traces.png" width="300px"/>
+</p>
+<p align="center">
+  <img src="readme_img/pcb_front.png" width="300px"/>
+</p>
+<p align="center">
+  <img src="readme_img/pcb_back.png" width="300px"/>
+</p>
+<p align="center">
+  <img src="readme_img/pcb_3d.png" width="300px"/>
+</p>
+
 
 ## Arduino code
 

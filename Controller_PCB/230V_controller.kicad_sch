@@ -3398,6 +3398,12 @@
 		(uuid "16b8d0ea-b0ad-42d9-9e20-85fa4ff87020")
 	)
 	(junction
+		(at 50.8 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "193726f6-0e22-4423-96ad-ed8dc1913666")
+	)
+	(junction
 		(at 234.95 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3444,6 +3450,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a37c0e74-8198-4dbc-bc24-af16f6be4cd6")
+	)
+	(junction
+		(at 60.96 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a6871a4f-b5e4-4372-bc11-0c7fcc581a36")
+	)
+	(junction
+		(at 60.96 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a703621f-5d11-4379-bc7f-9046ab0baac9")
 	)
 	(junction
 		(at 104.14 44.45)
@@ -3508,20 +3526,12 @@
 		(uuid "1559cec6-da56-4e03-935f-0a255354ba13")
 	)
 	(no_connect
-		(at 50.8 74.93)
-		(uuid "1794db78-9f06-4fa1-b2d3-124a07bd8e0e")
-	)
-	(no_connect
 		(at 77.47 82.55)
 		(uuid "20a76243-689a-42e5-a5c3-5cb446bfe569")
 	)
 	(no_connect
 		(at 102.87 95.25)
 		(uuid "2b9bb5c1-6e34-4b15-ac74-700f7332cb3a")
-	)
-	(no_connect
-		(at 77.47 87.63)
-		(uuid "36897efc-df90-4e2c-9348-6cebd444339b")
 	)
 	(no_connect
 		(at 102.87 97.79)
@@ -3538,14 +3548,6 @@
 	(no_connect
 		(at 77.47 80.01)
 		(uuid "4e691914-9458-4506-8bc4-14c9297b7e2c")
-	)
-	(no_connect
-		(at 60.96 82.55)
-		(uuid "5dd2af85-e2eb-4479-872e-4c2725848648")
-	)
-	(no_connect
-		(at 60.96 77.47)
-		(uuid "5eb0a313-1fb1-40f8-956a-67c83b4446bd")
 	)
 	(no_connect
 		(at 240.03 110.49)
@@ -3590,10 +3592,6 @@
 	(no_connect
 		(at 102.87 107.95)
 		(uuid "dd03d05f-6df5-405d-82bb-8ff612415ad6")
-	)
-	(no_connect
-		(at 60.96 72.39)
-		(uuid "e6ce6232-dd87-43cb-8e81-8194b4b62e78")
 	)
 	(no_connect
 		(at 77.47 110.49)
@@ -3848,6 +3846,16 @@
 			(type default)
 		)
 		(uuid "2a7f3e36-b5fa-491e-a90b-d3f35e13b9d2")
+	)
+	(wire
+		(pts
+			(xy 60.96 72.39) (xy 60.96 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2abf5553-fa94-4f82-bc40-53ef0c9bdf79")
 	)
 	(wire
 		(pts
@@ -4141,6 +4149,16 @@
 	)
 	(wire
 		(pts
+			(xy 60.96 77.47) (xy 60.96 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6218accb-60de-4046-a3a1-fbd2206464f9")
+	)
+	(wire
+		(pts
 			(xy 48.26 86.36) (xy 48.26 85.09)
 		)
 		(stroke
@@ -4198,6 +4216,16 @@
 			(type default)
 		)
 		(uuid "700349ce-5db2-4f03-8216-0b6a0b7f264a")
+	)
+	(wire
+		(pts
+			(xy 60.96 72.39) (xy 66.04 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70998bb3-a24c-4c39-ad1c-a170d7f9976b")
 	)
 	(wire
 		(pts
@@ -4268,6 +4296,16 @@
 			(type default)
 		)
 		(uuid "7abfdbaf-665f-4c4e-827d-c04d3cf1ed48")
+	)
+	(wire
+		(pts
+			(xy 66.04 72.39) (xy 66.04 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d1a244d-2634-402a-8334-87c5122c3732")
 	)
 	(wire
 		(pts
@@ -4848,6 +4886,16 @@
 			(type dash_dot_dot)
 		)
 		(uuid "ed0d1426-9e9b-4f4d-aae4-2c8921ae16ec")
+	)
+	(wire
+		(pts
+			(xy 50.8 74.93) (xy 50.8 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efb28848-484a-43ab-be4c-2cdf78454bfe")
 	)
 	(wire
 		(pts
@@ -6591,6 +6639,72 @@
 			(project "230V_controller"
 				(path "/0518519f-5f34-4fd9-905a-d6a5ef6e19ea"
 					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 66.04 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "61ce162b-eb07-4d91-9f3b-de2df618661a")
+		(property "Reference" "#PWR09"
+			(at 66.04 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 66.04 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 66.04 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 66.04 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "480c2418-3ae9-4e96-8ec7-2bb0fadba61b")
+		)
+		(instances
+			(project "230V_controller"
+				(path "/0518519f-5f34-4fd9-905a-d6a5ef6e19ea"
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)

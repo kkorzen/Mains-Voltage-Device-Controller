@@ -76,7 +76,7 @@ The PCB was designed the way it is presented on the picture below. Both sides of
 1. Relatively compact size
 2. Visible separation of mains AC volatage from the control +5 volts. There is no physical gap between them, but the PCB was designed in such way that control voltage occupies one side of the PCB and the main voltage - the other side.
 
-The layout can be viewed using one of the three PCB design software, for example KiCad.
+The layout can be viewed using one of the free PCB design software, for example KiCad.
 
 
 ## Arduino code

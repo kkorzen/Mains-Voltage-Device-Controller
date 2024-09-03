@@ -12,7 +12,6 @@ short pot_reading = 0;
 int triac_delay = 9000;
 int reading = 0, prev_reading = 0;
 volatile bool is_zcd = false;
-bool dimmer_enable = 1;
 
 char c;
 char d1;

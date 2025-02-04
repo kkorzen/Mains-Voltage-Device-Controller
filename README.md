@@ -72,7 +72,7 @@ A simple schematic for an Arduino with a drawn pinout. Nothing special, to be ho
 
 ### PCB Layout
 
-The PCB was designed the way it is presented on the picture below. Both sides of board were utilized, but most of the traces are located on the front. The were two main goals while designed such layout:
+Both sides of board were utilized, but most of the traces are located on the front. The were two main goals while designed such layout:
 1. Relatively compact size
 2. Visible separation of mains AC volatage from the control +5 volts. There is no physical gap between them, but the PCB was designed in such way that control voltage occupies one side of the PCB and the main voltage - the other side.
 
